@@ -13,14 +13,14 @@ for i in list1:
 
 
 
-# ### **Problem 2: Sum of Numbers
-n = int(input("Enter a number:  "))
-total = 0
-for i in range(1, n+1):
-    total += i
-    #total = total + 1
-print("The sum of numbers from 1 to", n, "is:", total)
-# Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
+# # ### **Problem 2: Sum of Numbers
+# n = int(input("Enter a number:  "))
+# total = 0
+# for i in range(1, n+1):
+#     total += i
+#     #total = total + 1
+# print("The sum of numbers from 1 to", n, "is:", total)
+# # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 
 
 
@@ -37,7 +37,7 @@ def factorial(n):
         factorial*=i+1
     
     return factorial
-print(factorial(0))
+print(factorial(5))
 
 # ### **Problem 4: Count Vowels**
 
@@ -47,8 +47,15 @@ print(factorial(0))
 # ### **Problem 5: Print Even Numbers**
 
 # Ask the user for a number **n**, then print all **even numbers** from 2 up to n.
+n = int(input("Enter a number:  "))
+list 2 = list(range(2, n))
+for i in list2:
+    if i % 2 == 0:
+        print("even", i)
+    else:
+        print("odd", i)
 
-
+#then prin all **even numbers** from 1 to n.
 
 # ### **Problem 6: Reverse a String**
 
