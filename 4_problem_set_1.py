@@ -5,13 +5,21 @@
 
 
 # ### **Problem 1: Print Numbers 1 to 10
-
+list1 = list(range(1,11))
+print(list)
+for i in list1:
+    print(i)
 # Write a program that prints the numbers from **1 to 10**, each on a new line.
 
 
 
 # ### **Problem 2: Sum of Numbers
-
+n = int(input("Enter a number:  "))
+total = 0
+for i in range(1, n+1):
+    total += i
+    #total = total + 1
+print("The sum of numbers from 1 to", n, "is:", total)
 # Ask the user for a number **n**, then calculate and display the **sum of all numbers from 1 to n**.
 
 
